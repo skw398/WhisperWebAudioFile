@@ -11,6 +11,7 @@
 		B47C53952AE7A1E3001E8E72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C53942AE7A1E3001E8E72 /* ContentView.swift */; };
 		B47C53972AE7A1E4001E8E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47C53962AE7A1E4001E8E72 /* Assets.xcassets */; };
 		B47C539A2AE7A1E4001E8E72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47C53992AE7A1E4001E8E72 /* Preview Assets.xcassets */; };
+		B47C53A12AE7A20D001E8E72 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C53A02AE7A20D001E8E72 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B47C53942AE7A1E3001E8E72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B47C53962AE7A1E4001E8E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B47C53992AE7A1E4001E8E72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B47C53A02AE7A20D001E8E72 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B47C53922AE7A1E3001E8E72 /* PlainWebView_SwiftUIApp.swift */,
 				B47C53942AE7A1E3001E8E72 /* ContentView.swift */,
+				B47C53A02AE7A20D001E8E72 /* WebView.swift */,
 				B47C53962AE7A1E4001E8E72 /* Assets.xcassets */,
 				B47C53982AE7A1E4001E8E72 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B47C53A12AE7A20D001E8E72 /* WebView.swift in Sources */,
 				B47C53952AE7A1E3001E8E72 /* ContentView.swift in Sources */,
 				B47C53932AE7A1E3001E8E72 /* PlainWebView_SwiftUIApp.swift in Sources */,
 			);
