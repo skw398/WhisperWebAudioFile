@@ -9,6 +9,7 @@ import SwiftUI
 import WebKit
 
 struct WebView: UIViewRepresentable {
+    
     typealias UIViewType = WKWebView
     
     let webView = WKWebView()
@@ -22,15 +23,16 @@ struct WebView: UIViewRepresentable {
     @Binding var canGoForward: Bool
     @Binding var currentURL: URL?
     
+    let didTapAudioFileLink: (URL) -> Void
+    
     let setWebViewHandler: (WKWebView) -> Void
     
     func makeUIView(context: UIViewRepresentableContext<WebView>) -> WKWebView {
         webView.navigationDelegate = context.coordinator
         webView.allowsBackForwardNavigationGestures = true
-        
         setWebViewHandler(webView)
         
-        let homeUrl: URL = .init(string: "https://www.apple.com")!
+        let homeUrl: URL = .init(string: "https://www.google.com")!
         webView.load(URLRequest(url: homeUrl))
         
         return webView
@@ -74,6 +76,16 @@ struct WebView: UIViewRepresentable {
             parent.canGoBack = webView.canGoBack
             parent.canGoForward = webView.canGoForward
             parent.currentURL = webView.url
+        }
+        
+        func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+            if let url = navigationAction.request.url, AudioManager.audioFormats.contains(url.pathExtension) {
+                decisionHandler(.cancel)
+                parent.didTapAudioFileLink(url)
+                return
+            }
+
+            decisionHandler(.allow)
         }
     }
 }

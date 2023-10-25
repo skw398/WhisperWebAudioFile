@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B44487A42AE7B82A007C634E /* LibWhisper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B444879D2AE7B82A007C634E /* LibWhisper.swift */; };
+		B44487A52AE7B82A007C634E /* ggml-alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = B444879E2AE7B82A007C634E /* ggml-alloc.c */; };
+		B44487A62AE7B82A007C634E /* ggml.c in Sources */ = {isa = PBXBuildFile; fileRef = B444879F2AE7B82A007C634E /* ggml.c */; };
+		B44487A72AE7B82A007C634E /* whisper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B44487A02AE7B82A007C634E /* whisper.cpp */; };
+		B44487AB2AE7B856007C634E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44487AA2AE7B856007C634E /* AudioManager.swift */; };
+		B44487AE2AE7B8D0007C634E /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = B44487AD2AE7B8D0007C634E /* AudioKit */; };
+		B44487B32AE7C7DE007C634E /* ggml-tiny.en.bin in Resources */ = {isa = PBXBuildFile; fileRef = B44487B22AE7C7DE007C634E /* ggml-tiny.en.bin */; };
+		B44487B52AE7D7FC007C634E /* RiffWaveUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44487B42AE7D7FC007C634E /* RiffWaveUtils.swift */; };
+		B44487BD2AE8D6CC007C634E /* Whisper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44487BC2AE8D6CC007C634E /* Whisper.swift */; };
 		B47C53932AE7A1E3001E8E72 /* PlainWebView_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C53922AE7A1E3001E8E72 /* PlainWebView_SwiftUIApp.swift */; };
 		B47C53952AE7A1E3001E8E72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C53942AE7A1E3001E8E72 /* ContentView.swift */; };
 		B47C53972AE7A1E4001E8E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47C53962AE7A1E4001E8E72 /* Assets.xcassets */; };
@@ -15,6 +24,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B444879C2AE7B82A007C634E /* whisper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whisper.h; sourceTree = "<group>"; };
+		B444879D2AE7B82A007C634E /* LibWhisper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibWhisper.swift; sourceTree = "<group>"; };
+		B444879E2AE7B82A007C634E /* ggml-alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "ggml-alloc.c"; sourceTree = "<group>"; };
+		B444879F2AE7B82A007C634E /* ggml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ggml.c; sourceTree = "<group>"; };
+		B44487A02AE7B82A007C634E /* whisper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = whisper.cpp; sourceTree = "<group>"; };
+		B44487A12AE7B82A007C634E /* ggml-alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ggml-alloc.h"; sourceTree = "<group>"; };
+		B44487A22AE7B82A007C634E /* PlainWebView-SwiftUI-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PlainWebView-SwiftUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		B44487A32AE7B82A007C634E /* ggml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ggml.h; sourceTree = "<group>"; };
+		B44487AA2AE7B856007C634E /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		B44487B22AE7C7DE007C634E /* ggml-tiny.en.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "ggml-tiny.en.bin"; sourceTree = "<group>"; };
+		B44487B42AE7D7FC007C634E /* RiffWaveUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiffWaveUtils.swift; sourceTree = "<group>"; };
+		B44487BC2AE8D6CC007C634E /* Whisper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whisper.swift; sourceTree = "<group>"; };
 		B47C538F2AE7A1E3001E8E72 /* PlainWebView-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlainWebView-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47C53922AE7A1E3001E8E72 /* PlainWebView_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainWebView_SwiftUIApp.swift; sourceTree = "<group>"; };
 		B47C53942AE7A1E3001E8E72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,12 +49,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44487AE2AE7B8D0007C634E /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B444879B2AE7B82A007C634E /* whisper.cpp */ = {
+			isa = PBXGroup;
+			children = (
+				B44487A22AE7B82A007C634E /* PlainWebView-SwiftUI-Bridging-Header.h */,
+				B44487B42AE7D7FC007C634E /* RiffWaveUtils.swift */,
+				B444879D2AE7B82A007C634E /* LibWhisper.swift */,
+				B444879C2AE7B82A007C634E /* whisper.h */,
+				B444879E2AE7B82A007C634E /* ggml-alloc.c */,
+				B444879F2AE7B82A007C634E /* ggml.c */,
+				B44487A02AE7B82A007C634E /* whisper.cpp */,
+				B44487A12AE7B82A007C634E /* ggml-alloc.h */,
+				B44487A32AE7B82A007C634E /* ggml.h */,
+				B44487B22AE7C7DE007C634E /* ggml-tiny.en.bin */,
+			);
+			path = whisper.cpp;
+			sourceTree = SOURCE_ROOT;
+		};
 		B47C53862AE7A1E3001E8E72 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +95,9 @@
 				B47C53922AE7A1E3001E8E72 /* PlainWebView_SwiftUIApp.swift */,
 				B47C53942AE7A1E3001E8E72 /* ContentView.swift */,
 				B47C53A02AE7A20D001E8E72 /* WebView.swift */,
+				B44487AA2AE7B856007C634E /* AudioManager.swift */,
+				B44487BC2AE8D6CC007C634E /* Whisper.swift */,
+				B444879B2AE7B82A007C634E /* whisper.cpp */,
 				B47C53962AE7A1E4001E8E72 /* Assets.xcassets */,
 				B47C53982AE7A1E4001E8E72 /* Preview Content */,
 			);
@@ -86,6 +128,9 @@
 			dependencies = (
 			);
 			name = "PlainWebView-SwiftUI";
+			packageProductDependencies = (
+				B44487AD2AE7B8D0007C634E /* AudioKit */,
+			);
 			productName = "PlainWebView-SwiftUI";
 			productReference = B47C538F2AE7A1E3001E8E72 /* PlainWebView-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +159,9 @@
 				Base,
 			);
 			mainGroup = B47C53862AE7A1E3001E8E72;
+			packageReferences = (
+				B44487AC2AE7B8D0007C634E /* XCRemoteSwiftPackageReference "AudioKit" */,
+			);
 			productRefGroup = B47C53902AE7A1E3001E8E72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44487B32AE7C7DE007C634E /* ggml-tiny.en.bin in Resources */,
 				B47C539A2AE7A1E4001E8E72 /* Preview Assets.xcassets in Resources */,
 				B47C53972AE7A1E4001E8E72 /* Assets.xcassets in Resources */,
 			);
@@ -140,9 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44487A42AE7B82A007C634E /* LibWhisper.swift in Sources */,
+				B44487A52AE7B82A007C634E /* ggml-alloc.c in Sources */,
+				B44487A72AE7B82A007C634E /* whisper.cpp in Sources */,
+				B44487A62AE7B82A007C634E /* ggml.c in Sources */,
 				B47C53A12AE7A20D001E8E72 /* WebView.swift in Sources */,
+				B44487B52AE7D7FC007C634E /* RiffWaveUtils.swift in Sources */,
+				B44487BD2AE8D6CC007C634E /* Whisper.swift in Sources */,
 				B47C53952AE7A1E3001E8E72 /* ContentView.swift in Sources */,
 				B47C53932AE7A1E3001E8E72 /* PlainWebView_SwiftUIApp.swift in Sources */,
+				B44487AB2AE7B856007C634E /* AudioManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +326,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PlainWebView-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = MX2B93FCVT;
 				ENABLE_PREVIEWS = YES;
@@ -287,6 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skw398.PlainWebView-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "whisper.cpp/PlainWebView-SwiftUI-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,6 +357,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PlainWebView-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = MX2B93FCVT;
 				ENABLE_PREVIEWS = YES;
@@ -316,6 +375,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skw398.PlainWebView-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "whisper.cpp/PlainWebView-SwiftUI-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -343,6 +403,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B44487AC2AE7B8D0007C634E /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B44487AD2AE7B8D0007C634E /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B44487AC2AE7B8D0007C634E /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B47C53872AE7A1E3001E8E72 /* Project object */;
 }
