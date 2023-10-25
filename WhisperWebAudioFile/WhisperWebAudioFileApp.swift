@@ -1,6 +1,6 @@
 //
-//  PlainWebView_SwiftUIApp.swift
-//  PlainWebView-SwiftUI
+//  WhisperWebAudioFile.swift
+//  WhisperWebAudioFile
 //
 //  Created by Shigenari Oshio on 2023/10/24.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct PlainWebView_SwiftUIApp: App {
+struct WhisperWebAudioFileApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

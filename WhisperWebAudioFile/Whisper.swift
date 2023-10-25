@@ -1,6 +1,6 @@
 //
 //  Whisper.swift
-//  PlainWebView-SwiftUI
+//  WhisperWebAudioFile
 //
 //  Created by Shigenari Oshio on 2023/10/25.
 //

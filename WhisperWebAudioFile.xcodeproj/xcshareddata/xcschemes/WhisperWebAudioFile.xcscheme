@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B47C538E2AE7A1E3001E8E72"
-               BuildableName = "PlainWebView-SwiftUI.app"
-               BlueprintName = "PlainWebView-SwiftUI"
-               ReferencedContainer = "container:PlainWebView-SwiftUI.xcodeproj">
+               BuildableName = "WhisperWebAudioFile.app"
+               BlueprintName = "WhisperWebAudioFile"
+               ReferencedContainer = "container:WhisperWebAudioFile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B47C538E2AE7A1E3001E8E72"
-            BuildableName = "PlainWebView-SwiftUI.app"
-            BlueprintName = "PlainWebView-SwiftUI"
-            ReferencedContainer = "container:PlainWebView-SwiftUI.xcodeproj">
+            BuildableName = "WhisperWebAudioFile.app"
+            BlueprintName = "WhisperWebAudioFile"
+            ReferencedContainer = "container:WhisperWebAudioFile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B47C538E2AE7A1E3001E8E72"
-            BuildableName = "PlainWebView-SwiftUI.app"
-            BlueprintName = "PlainWebView-SwiftUI"
-            ReferencedContainer = "container:PlainWebView-SwiftUI.xcodeproj">
+            BuildableName = "WhisperWebAudioFile.app"
+            BlueprintName = "WhisperWebAudioFile"
+            ReferencedContainer = "container:WhisperWebAudioFile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
